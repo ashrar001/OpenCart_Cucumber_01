@@ -1,0 +1,9 @@
+Feature: Login Data Driven with Excel
+Scenario Outline: Login Data Driven Excel
+Given the user navigates to login page
+Then the user should be redirected to the MyAccount Page by passing email and password with 
+Examples:
+| row_index |
+|          1|
+|          2|
+|          3|
